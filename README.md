@@ -6,13 +6,14 @@ Tutorial: Exploratory Data Analysis, the Polars Way
 
 1) Clone this repository
 
-```
+```shell
 git clone https://github.com/janpipek/eda-polars-way.git
 ```
 
-2) Create a virtual environment
+2) Create a virtual environment (inside the repository)
 
-```
+```shell
+cd eda-polars-way
 python -m venv .venv
 ```
 
@@ -23,6 +24,14 @@ Inside the virtual environment
 ```
 pip install -r requirements.txt
 ```
+
+## Used datasets 
+
+
+
+## How to run
+
+When in the 
 
 
 ## Useful links
