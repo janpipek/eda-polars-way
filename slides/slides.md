@@ -65,6 +65,16 @@ marp: true
 
 ---
 
+## Basic plotting
+
+---
+
+df.plot
+df.plot.bar
+df.plot.scater
+
+---
+
 ### Exercise time
 
 ---
@@ -81,14 +91,14 @@ marp: true
 
 ---
 
-### Adding / removing columns
+### Manipulation 
 
 ---
 
-## Grouping
+## Aggregations
 
 ---
 
-## Joining
+## Joins
 
 ---

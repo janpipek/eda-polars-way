@@ -1,4 +1,4 @@
-iso,name,population,area,admission_date
+iso3,country,population,area,admission_date
 AFG,Afghanistan,41128771,652860.0,1946-11-19
 ALB,Albania,2777689,28750.0,1955-12-14
 DZA,Algeria,44903225,2381741.0,1962-10-08
