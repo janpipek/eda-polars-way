@@ -85,6 +85,8 @@ df.plot.scater
 
 ## Operations
 
+Expressions
+
 ---
 
 ### Arithmetics
