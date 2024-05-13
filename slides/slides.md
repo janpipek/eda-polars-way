@@ -6,6 +6,14 @@ marp: true
 
 ## Polars way
 
+### PyCon Italia, 2024
+
+---
+
+### About Me
+
+Jan Pipek
+
 ---
 
 ## Intro
@@ -14,17 +22,17 @@ marp: true
 
 ### What is polars?
 
-- Library for manipulation with tabular data
+- Library for manipulation with tabular data*
 - Contender to pandas (and many more similar tools)
-- Since 20XX, started by Ritchie Vink
+- Since 2020, started by Ritchie Vink
 
 ---
 
 ### Why polars?
 
-- Performance
-- Clean(er) API 
-- Query optimization
+- Performance (rust)
+- Clean(er) API
+- Lazy evaluation & query optimization
 - Cool kid on the block
 
 ---
@@ -36,9 +44,27 @@ marp: true
 - Less known
 - Sometimes lengthy code
 
+--- 
+
+### Exercise time
+
+```shell
+jupyter lab
+```
+
+Open "exercises/10-exploration.ipynb"
+
 ---
 
 ## Basic types
+
+---
+
+### DataFrame
+
+- a "table"?
+- a "spreadsheet" table?
+- a "dict of columns"?
 
 ---
 
@@ -50,15 +76,7 @@ marp: true
 
 ---
 
-### DataFrame
-
-- a "table"?
-- a "spreadsheet" table?
-- a "dict of series"?
-
----
-
-### Dtypes
+### D(ata) types
 
 - distinct from (but convertible to/from) Python classes
 - numerical values (int / float, various precision), strings, dates, datetimes
@@ -67,11 +85,15 @@ marp: true
 
 ## Basic plotting
 
+Note: Requires [hvplot](https://hvplot.holoviz.org/)
+
 ---
 
-df.plot
+```python
+df.plot(x=)
 df.plot.bar
 df.plot.scater
+```
 
 ---
 
@@ -83,24 +105,76 @@ df.plot.scater
 
 ---
 
-## Operations
+```python
+data.filter(
+    # Expression
+    pl.col("column") > 0
+)
+```
 
-Expressions
+
+```python
+data.filter(
+    # Shortcut
+    column="value"
+)
+```
+
+---
+
+```python
+
+data.sort(
+    "column"
+)
+
+```
+
+---
+
+## Operations
 
 ---
 
 ### Arithmetics
 
+```python
+.select(
+    *expressions,
+    **named_expressions,
+)
+```
+
 ---
 
 ### Manipulation 
 
+- The series are read-only.
+- DataFrames are (almost read-only).
+
 ---
 
-## Aggregations
+## Aggregations 
+
+### a.k.a. `.group_by`
+
+---
+
 
 ---
 
 ## Joins
 
+### a.k.a. `.merge`
+
 ---
+
+## (Extra) Wide/long data format
+
+---
+
+.melt
+
+---
+
+.pivot

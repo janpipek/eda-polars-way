@@ -36,5 +36,16 @@ When in the
 
 ## Useful links
 
+### Official documentation
+
 - [Polars API reference](https://docs.pola.rs/py-polars/html/reference/index.html)
+
+### Articles
+
 - [Python Polars: A Lightning-Fast DataFrame Library](https://realpython.com/polars-python/) @ RealPython
+
+### Talks & videos
+
+-  https://janpipek.github.io/talks/prague-python-pizza_2024/slides.pdf
+
+### On-line courses
