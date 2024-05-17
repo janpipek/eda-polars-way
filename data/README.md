@@ -15,3 +15,7 @@ Basic data about U.N. members, custom made
 From: https://simplemaps.com/data/world-cities, MIT licence
 
 ## florence-meteostat.parquet
+
+From: https://meteostat.net/en/, CC BY-NC 4.0 licence
+
+See `../scripts/weather_data.ipynb`
