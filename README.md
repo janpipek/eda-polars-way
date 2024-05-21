@@ -5,8 +5,8 @@ Tutorial: Exploratory Data Analysis, the Polars Way
 ## Preparation
 
 Please prepare a Python environment that you can use during the workshop.
-We will work in Jupyter Notebook as well as in an editor or an IDE of your choice.
-Recommended are [Visual Studio Code](https://code.visualstudio.com) or [PyCharm](https://www.jetbrains.com/pycharm/).
+We will work in Jupyter Notebook. However, you can also use jupyter lab or one of the IDES,
+[Visual Studio Code](https://code.visualstudio.com) or [PyCharm](https://www.jetbrains.com/pycharm/).
 
 ### Clone this repository
 
@@ -30,14 +30,18 @@ Python version 3.10+ is required.
 First, `cd` into the repository directory:
 
 ```bash
-cd robust-pandas-workshop
+cd eda-polars-way
 ```
 
 #### Pip installation
 
 ```bash
+# Activate the environment (every time you open the shell)
 python -m venv .venv
-source .venv/bin/activate   # Linux, Mac
+source .venv/bin/activate    # Linux, Mac
+.venv\Scripts\activate.bat   # Windows
+
+# Install the required packages (once)
 python -m pip install -r requirements.txt
 ```
 
