@@ -54,6 +54,7 @@ see `data/README.md` for more details.
 
 ### Official documentation
 
+- [Polars User Guide](https://docs.pola.rs/)
 - [Polars API reference](https://docs.pola.rs/py-polars/html/reference/index.html)
 
 ### Articles
@@ -62,6 +63,9 @@ see `data/README.md` for more details.
 
 ### Talks & videos
 
--  https://janpipek.github.io/talks/prague-python-pizza_2024/slides.pdf
+- [R. Vink: What polars does for you](https://www.youtube.com/watch?v=UwRlFtSd_-8), EuroPython 2023
+- [M. Harrison: Getting Started with Polars](https://www.youtube.com/watch?v=CJ0f45evuME), Pycon US 2023
 
 ### On-line courses
+
+- https://www.udemy.com/course/data-analysis-with-polars/
