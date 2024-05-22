@@ -20,6 +20,10 @@ or using `gh` client:
 gh repo clone janpipek/eda-polars-way
 ```
 
+Alternatively, you can just download the repo as a package from here:
+
+https://github.com/janpipek/eda-polars-way/archive/refs/heads/main.zip
+
 ### Prepare Python Environment
 
 The included `requirements.txt` file should be enough for you to create a Python environment
