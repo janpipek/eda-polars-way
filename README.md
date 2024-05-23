@@ -2,6 +2,8 @@
 
 Tutorial: Exploratory Data Analysis, the Polars Way
 
+(as given at [PyCon Italia 2024](https://2024.pycon.it/).
+
 ## Preparation
 
 Please prepare a Python environment that you can use during the workshop.
@@ -48,6 +50,10 @@ source .venv/bin/activate    # Linux, Mac
 # Install the required packages (once)
 python -m pip install -r requirements.txt
 ```
+
+## How to use this repo
+
+All contents (a bit of text + all exercises) are located in `exercises.ipynb`. The exercise are partly filled and accompanied by hints. If you are still unsure, in `solutions.ipynb`, you have working code to answer the questions.
 
 ## Data sources
 
