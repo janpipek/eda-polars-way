@@ -51,6 +51,15 @@ source .venv/bin/activate    # Linux, Mac
 python -m pip install -r requirements.txt
 ```
 
+### (Absolutely lazy) on-line environment
+
+This is not recommended but working in case you have probelms installing on your laptop.
+
+Create an account at https://deepnote.com (for free) and launch the repo by clicking the button:
+
+[<img src="https://deepnote.com/buttons/launch-in-deepnote-small.svg">](https://deepnote.com/launch?url=?https%3A%2F%2Fgithub.com%2Fjanpipek%2Feda-polars-way )
+
+
 ## How to use this repo
 
 All contents (a bit of text + all exercises) are located in `exercises.ipynb`. The exercise are partly filled and accompanied by hints. If you are still unsure, in `solutions.ipynb`, you have working code to answer the questions.
