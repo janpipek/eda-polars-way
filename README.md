@@ -57,7 +57,7 @@ This is not recommended but working in case you have probelms installing on your
 
 Create an account at https://deepnote.com (for free) and launch the repo by clicking the button:
 
-[<img src="https://deepnote.com/buttons/launch-in-deepnote-small.svg">](https://deepnote.com/launch?url=?https%3A%2F%2Fgithub.com%2Fjanpipek%2Feda-polars-way )
+[<img src="https://deepnote.com/buttons/launch-in-deepnote-small.svg">](https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Fjanpipek%2Feda-polars-way)
 
 
 ## How to use this repo
