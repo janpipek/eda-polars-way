@@ -2,7 +2,7 @@
 
 Tutorial: Exploratory Data Analysis, the Polars Way
 
-(as given at [PyCon Italia 2024](https://2024.pycon.it/).
+(as given at [PyCon Italia 2024](https://2024.pycon.it/) and [EuroPython 2024](https://ep2024.europython.eu/).
 
 ## Preparation
 
