@@ -18,7 +18,7 @@ From: https://simplemaps.com/data/world-cities, MIT licence
 
 From: https://data.worldbank.org/indicator, CC BY 4.0 licence
 
-## florence-meteostat.parquet
+## florence-meteostat.parquet, prague-meteostat.parquet
 
 From: https://meteostat.net/en/, CC BY-NC 4.0 licence
 
