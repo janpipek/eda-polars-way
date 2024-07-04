@@ -1,4 +1,4 @@
-polars>=0.20.21
+polars>=1.0
 jupyter>=1.0
 jupyterlab>=4.0
 hvplot>=0.9.2
