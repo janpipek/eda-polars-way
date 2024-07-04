@@ -2,7 +2,7 @@
 
 Tutorial: Exploratory Data Analysis, the Polars Way
 
-(as given at [PyCon Italia 2024](https://2024.pycon.it/) and [EuroPython 2024](https://ep2024.europython.eu/).
+(as given at [PyCon Italia 2024](https://2024.pycon.it/) and [EuroPython 2024](https://ep2024.europython.eu/)).
 
 ## Preparation
 
@@ -50,6 +50,8 @@ source .venv/bin/activate    # Linux, Mac
 # Install the required packages (once)
 python -m pip install -r requirements.txt
 ```
+
+(note that we require the new, stable 1.0 version of polars)
 
 ### (Absolutely lazy) on-line environment
 
