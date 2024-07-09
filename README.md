@@ -39,16 +39,16 @@ First, `cd` into the repository directory:
 cd eda-polars-way
 ```
 
-#### Pip installation
+#### Pip/uv installation
 
 ```bash
 # Activate the environment (every time you open the shell)
-python -m venv .venv
+python -m venv .venv         # (or `uv venv`)
 source .venv/bin/activate    # Linux, Mac
 .venv\Scripts\activate.bat   # Windows
 
 # Install the required packages (once)
-python -m pip install -r requirements.txt
+python -m pip install -r requirements.txt  (or `uv pip install -r requirements.txt`)
 ```
 
 (note that we require the new, stable 1.0 version of polars)
@@ -61,10 +61,11 @@ Create an account at https://deepnote.com (for free) and launch the repo by clic
 
 [<img src="https://deepnote.com/buttons/launch-in-deepnote-small.svg">](https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Fjanpipek%2Feda-polars-way)
 
+Note that you will have to install additional packages (there is a command you need to uncomment).
 
 ## How to use this repo
 
-All contents (a bit of text + all exercises) are located in `exercises.ipynb`. The exercise are partly filled and accompanied by hints. If you are still unsure, in `solutions.ipynb`, you have working code to answer the questions.
+All contents (a bit of text + all exercises) are located in `exercises.ipynb`. The exercise are partly filled and accompanied by hints. If you are still unsure, in `solutions.ipynb`, you have working code to answer the questions. To help SQL-savvy, the `solutions-sql.ipynb` file contains solution using the SQL API of polars).
 
 ## Data sources
 
