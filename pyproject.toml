@@ -1,0 +1,13 @@
+[project]
+name = "eda-polars-way"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.3.6",
+    "meteostat>=1.6.8",
+    "pandas>=2.2.3",
+    "polars>=1.26.0",
+    "pyarrow>=19.0.1",
+    "xlsxwriter>=3.2.2",
+]

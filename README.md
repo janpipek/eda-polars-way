@@ -2,7 +2,7 @@
 
 Tutorial: Exploratory Data Analysis, the Polars Way
 
-(as given at [PyCon Italia 2024](https://2024.pycon.it/) and [EuroPython 2024](https://ep2024.europython.eu/)).
+(as given at [PyCon Italia 2024](https://2024.pycon.it/), [EuroPython 2024](https://ep2024.europython.eu/), and [PyCon Austria 2025](https://pycon.pyug.at/en/)).
 
 ## Preparation
 
@@ -12,13 +12,13 @@ We will work in Jupyter Notebook. However, you can also use jupyter lab or one o
 
 ### Clone this repository
 
-```bash
+```shell
 git clone https://github.com/janpipek/eda-polars-way.git
 ```
 
 or using `gh` client:
 
-```bash
+```shell
 gh repo clone janpipek/eda-polars-way
 ```
 
@@ -28,30 +28,36 @@ https://github.com/janpipek/eda-polars-way/archive/refs/heads/main.zip
 
 ### Prepare Python Environment
 
-The included `requirements.txt` file should be enough for you to create a Python environment
-using the `pip` command.
-
 Python version 3.10+ is required.
 
 First, `cd` into the repository directory:
 
-```bash
+```shell
 cd eda-polars-way
 ```
 
-#### Pip/uv installation
+#### uv "installation"
 
-```bash
-# Activate the environment (every time you open the shell)
-python -m venv .venv         # (or `uv venv`)
-source .venv/bin/activate    # Linux, Mac
-.venv\Scripts\activate.bat   # Windows
+You do not have to install anything. Just run the appropriate `uv run ...` commands.
 
-# Install the required packages (once)
-python -m pip install -r requirements.txt  (or `uv pip install -r requirements.txt`)
+#### Pip installation
+
+The included `requirements.txt` file should be enough for you to set up a Python environment
+using the `pip` command. First create the environment (just once):
+
+```shell
+python -m venv .venv
+
+# Activate the environment (every time you open the shell),
+# depending on your os
+source .venv/bin/activate    # <--- Linux, Mac
+.venv\Scripts\activate.bat   # <--- Windows
+
+# Install the required packages
+python -m pip install -r requirements.txt
 ```
 
-(note that we require the new, stable 1.0 version of polars)
+You will have to repeat the activation step whenever you start a new command-line shell.
 
 ### (Absolutely lazy) on-line environment
 
@@ -66,6 +72,18 @@ Note that you will have to install additional packages (there is a command you n
 ## How to use this repo
 
 All contents (a bit of text + all exercises) are located in `exercises.ipynb`. The exercise are partly filled and accompanied by hints. If you are still unsure, in `solutions.ipynb`, you have working code to answer the questions. To help SQL-savvy, the `solutions-sql.ipynb` file contains solution using the SQL API of polars).
+
+### Run the notebook
+
+```shell
+uv run jupyter notebook
+```
+
+or (if you installed via pip and activated your environment)
+
+```shell
+jupyter notebook
+```
 
 ## Data sources
 
