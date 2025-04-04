@@ -1,7 +1,9 @@
+hvplot>0.10.0
+bokeh>3.6,<3.7
 jupyter>=1.1.1
 jupyterlab>=4.3.6
 meteostat>=1.6.8
 pandas>=2.2.3
-polars[plot,style]>=1.26.0
+polars>=1.26.0
 pyarrow>=19.0.1
 xlsxwriter>=3.2.2
