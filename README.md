@@ -1,6 +1,4 @@
-# eda-polars-way
-
-Tutorial: Exploratory Data Analysis, the Polars Way
+# Tutorial: Exploratory Data Analysis, the Polars Way
 
 (as given at [PyCon Italia 2024](https://2024.pycon.it/), [EuroPython 2024](https://ep2024.europython.eu/), and [PyCon Austria 2025](https://pycon.pyug.at/en/)).
 
